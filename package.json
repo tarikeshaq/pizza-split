@@ -1,0 +1,23 @@
+{
+  "name": "pizza-split",
+  "version": "1.0.0",
+  "description": "Cost split app that creates a wallet with multiple contributors to get their pizza.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarikeshaq/pizza-split.git"
+  },
+  "author": "Tarik Eshaq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarikeshaq/pizza-split/issues"
+  },
+  "homepage": "https://github.com/tarikeshaq/pizza-split#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.3"
+  }
+}
