@@ -1,12 +1,17 @@
 var express = require("express");
 var app = express();
 
-app.set("view enging", "ejs");
+app.use(express.static(__dirname + '/public'));
 
-app.get("/", function(req, res) {
-    res.send("LANDING PAGE");
+app.set("view engine", "ejs");
+
+app.get("/landing", function(req, res) {
+    res.render("landing", {path: req.path});
 });
 
+app.get("/*", function(req, res){
+    res.redirect("/landing");
+});
 
 
 app.listen(process.env.PORT, process.env.IP, function() {
