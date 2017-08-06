@@ -4,7 +4,8 @@
   "description": "Cost split app that creates a wallet with multiple contributors to get their pizza.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
