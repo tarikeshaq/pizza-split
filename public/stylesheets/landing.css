@@ -4,21 +4,35 @@ body, html {
 }
 
 body {
-    background: url(http://az616578.vo.msecnd.net/files/2016/07/27/636052594006250231408792417_shutterstock_194712620.jpg);
+    /*background: url(http://az616578.vo.msecnd.net/files/2016/07/27/636052594006250231408792417_shutterstock_194712620.jpg);*/
     background-size: cover;
-    color: #DC143C;
+    color: black;
 }
 
+#content {
+    background: url(http://az616578.vo.msecnd.net/files/2016/07/27/636052594006250231408792417_shutterstock_194712620.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 85%;
+}
+
+#top {
+    background-color: rgba(255, 204, 102, 0.2);
+    width: 100%;
+    height: 15%;
+}
 #box {
+    
     text-align: center;
     margin: auto;
-    padding-top: 10%;
+    padding-top: 20%;
+    text-shadow: 1px 1px 2px #fff;
 }
 
 #box h1, #box p  {
     font-family: 'Sedgwick Ave Display', cursive;
     margin-top: 0;
-    color: #DC143C;
+    color: black;
 }
 
 #footer {
@@ -27,8 +41,15 @@ body {
    width:100%;
    height:60px;   /* Height of the footer */
    background: transparent;
+   text-shadow: 1px 1px 2px #fff;
+   
 }
 
+img {
+    padding-left: 44%;
+    text-align: center;
+    margin: 0 auto;
+}
 
 
 
